@@ -11,7 +11,6 @@ import plotly.graph_objs as go
 import PressDataframeV4RPI as PD
 import DatabaseV2RPI as DDb
 
-#TEST
 # Constants
 MACHINE_OFF_CUTOFF = 10  # Time in seconds to consider the machine off
 UPDATE_INTERVAL = 20     # Time in seconds to update data
