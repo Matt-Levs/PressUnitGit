@@ -124,7 +124,6 @@ def press_hit(history, current_timestamp):
         'long_downtime': long_downtime
     }
     history.append(new_record)
-    print(history)
     return history
 
 # Function to handle press_down
@@ -146,7 +145,6 @@ def press_down(history, current_timestamp):
         'long_downtime': long_downtime
     }
     history.append(new_record)
-    print(history)
     return history
 
 # Example usage
