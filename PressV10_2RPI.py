@@ -16,7 +16,7 @@ UPDATE_INTERVAL = 30     # Time in seconds to update data
 UNIT_LOCATION = ''
 UNIT_EQUIPMENT = ''
 
-button = Button(6, bounce_time=0.02, pull_up=False)
+button = Button(6, bounce_time=0.01, pull_up=False)
 
 def press_down():
     global equip_history, last_stomp_time
